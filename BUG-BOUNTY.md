@@ -26,8 +26,8 @@ Social engineering, XKCD#538 attacks, bringing down Ethereum Mainnet/Infura, and
 
 You may test this contract as deployed on the Ropsten network:
 
--  [Area NFT contract](https://ropsten.etherscan.io/address/0x6f1cd9616666f27adf50778036c556523b9f75e9)
--  [Area marketplace contract](https://ropsten.etherscan.io/address/0x93635646362f4954c83d86852409f8698fab2901)
+-  [Area.sol contract](https://ropsten.etherscan.io/address/0x7dd3d48535ab22b9a9fffea052e6f528406cc840#code)
+-  [NFTMarketplace.sol contract](https://ropsten.etherscan.io/address/0xa5927a3f2b4e146154430b86538a2aaa03ea5507#code)
 
 ## Sensitivity
 
