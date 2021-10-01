@@ -6,17 +6,15 @@
 
 :rainbow: There are entirely new concepts in here including a randomized commit-reveal NFT drop mechanism, ghost minting and reusable smart contract data structures & libraries. All this is open sourced and by reading along you may find ideas & code to steal for your next project.
 
-Start time: :red_circle::red_circle::red_circle: ADD DATE, TIME, TIMEZONE
+Start time: October 1, Noon, UTC
 
-End time: :red_circle::red_circle::red_circle: ADD DATE, TIME, TIMEZONE
+End time: October 10, Noon, UTC
 
 ## Sponsors
 
-This bug bounty is sponsored by the Area project and personally by William Entriken.
+This bug bounty is sponsored by [Area](https://www.area.world) and personally by William Entriken, Area's technical advisor and developer of these smart contracts. He has included his own personal money to pay you, dear reader, for any problems you find.
 
-William was retained by the Area project to write these smart contracts and he has included his own money to pay you, dear reader, for any problems you find.
-
-Total value is over USD :red_circle::red_circle::red_circle: including :red_circle::red_circle::red_circle: ADD LINK this Meebit and USD :red_circle::red_circle::red_circle: in cash or equivalent, and much more.
+The total bounty value is over USD 20,000 including [this Meebit](https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/12398) and USD 5,000 in cash or equivalent, and much more.
 
 ## Scope of this bounty program
 
@@ -28,8 +26,8 @@ Social engineering, XKCD#538 attacks, bringing down Ethereum Mainnet/Infura, and
 
 You may test this contract as deployed on the Ropsten network:
 
--  :red_circle::red_circle::red_circle: ADD LINK Area NFT contract
--  :red_circle::red_circle::red_circle: ADD LINK Area marketplace contract
+-  [Area NFT contract](https://ropsten.etherscan.io/address/0x6f1cd9616666f27adf50778036c556523b9f75e9)
+-  [Area marketplace contract](https://ropsten.etherscan.io/address/0x93635646362f4954c83d86852409f8698fab2901)
 
 ## Sensitivity
 
@@ -99,15 +97,15 @@ Rules for bounty sponsor:
 
 ## More questions
 
-* If you prefer to reach us privately, please contact: join @ area.world. You are welcome to make a hashed bug report (set issue body to hash of your message). This will still be eligible for payment and recognition.
+* If you prefer to reach us privately, please contact: support @ area.world. You are welcome to make a hashed bug report (set issue body to hash of your message). This will still be eligible for payment and recognition.
 * Will things change during the bounty program?
-  * Yes, we will update the code and redeploy the contract. So, click [:star: STAR and :eye: WATCH](https://github.com/0xcert/framework/) above on this repo for updates.
+  * Yes, we will update the code and redeploy the contract. So, click [:star: STAR and :eye: WATCH](https://github.com/AreaWorld/ethereum-contract) above on this repo for updates.
 
 - Taxes?
   - If you earn so much money that you will need to fill out a tax form, then we will ask you to do so. This program is subject to the laws of Hong Kong.
 
 ## Thank you
 
-Thank you for your interest in the Area project, for reading to the end of this file and for reading my code. Even if you don't find any problems, I'd love to hear your thoughts. Please hit up @AreaNFTs and @fulldecent on Twitter or reach out other ways. See you at NFT.nyc.
+Thank you for your interest in Area, for reading to the end of this file and for reading my code. Even if you don't find any problems, I'd love to hear your thoughts. Please hit up @AreaNFTs and @fulldecent on Twitter or reach out other ways. See you at NFT.nyc.
 
 William Entriken / 2021-10-01
