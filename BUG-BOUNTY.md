@@ -63,11 +63,11 @@ Following is a [risk rating model](https://www.owasp.org/index.php/OWASP_Risk_Ra
 
 Rewards:
 
-- **Highest severity (first found)** —  Marcos will give you :red_circle::red_circle::red_circle: ADD LINK  this Meebit
-- **High severity** — payout partial payout of the bug bounty (USD 5,000)
+- **Highest severity (first found)** —  [this Meebit](https://opensea.io/assets/0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7/12398)
+- **High severity** — partial payout of the bug bounty (USD 5,000)
 - **Medium severity** — partial payout of the bug bounty (USD 1,000)
 - Every accepted problem report will also receive
-  - :red_circle::red_circle::red_circle: ADD LINK this limited, first edition Area T-shirt, mailed to your house, in time for you to wear at NFT.nyc
+  - This limited, first edition [Area T-shirt](https://raw.githubusercontent.com/AreaWorld/ethereum-contracts/main/t-shirt.png?token=AT6I46YTDQSGRIWQX2LQE4TBK24BC), mailed to your house, in time for you to wear at NFT.nyc
   - One Area NFT token from the token drop
   - Public acknowledgement from the Area team and personally from the contract developer on Twitter (if you allow)
 
