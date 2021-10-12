@@ -49,7 +49,7 @@ abstract contract AreaNFT is ERC721, Ownable {
     /// @param  tokenId the token that will be split
     function split(uint256 tokenId) external payable {
         require(msg.value == _priceToSplit, "Did not send correct Ether amount");
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "AreaNFT: split caller is not owner nor approved");
+        require(_msgSender() == ownerOf(tokenId), "AreaNFT: split caller is not owner");
         _burn(tokenId);
 
         // Split. This causes our ownerOf(childTokenId) to return the owner

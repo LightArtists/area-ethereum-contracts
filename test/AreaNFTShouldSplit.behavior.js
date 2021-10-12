@@ -4,7 +4,7 @@ const { ZERO_ADDRESS } = constants;
 
 const PlusCodesMock = artifacts.require('PlusCodesMock');
 
-function shouldSplit (parentCodeASCII, aChildCodeASCII, priceToSplit, owner, someoneElse) {
+function shouldSplit (parentCodeASCII, aChildCodeASCII, priceToSplit, owner, someoneElse, operator) {
   const parentPlusCode = new BN(Buffer.from(parentCodeASCII).toString('hex'), 16);
   const aChildPlusCode = new BN(Buffer.from(aChildCodeASCII).toString('hex'), 16);
 
@@ -21,11 +21,21 @@ function shouldSplit (parentCodeASCII, aChildCodeASCII, priceToSplit, owner, som
       expect(await this.plusCodes.getParent(aChildPlusCode)).to.bignumber.equal(parentPlusCode);
     });
 
-    context('when the splitter is not approved or the owner', async function () {
+    context('when the splitter is not approved nor the owner', async function () {
       it('reverts', async function () {
         await expectRevert(
           this.token.split(parentPlusCode, { from: someoneElse, value: priceToSplit }),
-          'AreaNFT: split caller is not owner nor approved',
+          'AreaNFT: split caller is not owner',
+        );
+      });
+    });
+
+    context('when the splitter is approved by the owner', async function () {
+      it('reverts', async function () {
+        await this.token.setApprovalForAll(operator, true, { from: owner });
+        await expectRevert(
+          this.token.split(parentPlusCode, { from: operator, value: priceToSplit }),
+          'AreaNFT: split caller is not owner',
         );
       });
     });
