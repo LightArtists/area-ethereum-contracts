@@ -44,7 +44,8 @@ abstract contract AreaNFT is ERC721, Ownable {
     }
 
     /// @notice The owner of an Area Token can irrevocably split it into Plus Codes at one greater level of precision.
-    /// @dev    This is the only function with burn functionality
+    /// @dev    This is the only function with burn functionality. The newly minted tokens do not cause a call to
+    ///         onERC721Received on the recipient.
     /// @param  tokenId the token that will be split
     function split(uint256 tokenId) external payable {
         require(msg.value == _priceToSplit, "Did not send correct Ether amount");
