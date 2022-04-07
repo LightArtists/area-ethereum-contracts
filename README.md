@@ -25,8 +25,6 @@ The marketplace supports direct Ether payment and safe withdrawals. Rather than 
 
 ## Run test suite
 
-If you are on an M1 Mac, note that Node.js is currently broken. See this hack https://stackoverflow.com/a/67813764/300224.
-
 Setup
 
 ```sh
