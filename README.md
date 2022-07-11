@@ -28,8 +28,8 @@ The marketplace supports direct Ether payment and safe withdrawals. Rather than 
 Setup
 
 ```sh
-nvm install 12 # see special instructions above for M1 Mac
-nvm use 12
+nvm install 16
+nvm use 16
 npm install
 ```
 
